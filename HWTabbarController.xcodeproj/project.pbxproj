@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5929FAB1BDF646300B8C59E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5929FAA1BDF646300B8C59E /* main.m */; };
+		C5929FAE1BDF646300B8C59E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5929FAD1BDF646300B8C59E /* AppDelegate.m */; };
+		C5929FB11BDF646300B8C59E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5929FB01BDF646300B8C59E /* ViewController.m */; };
+		C5929FB41BDF646300B8C59E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5929FB21BDF646300B8C59E /* Main.storyboard */; };
+		C5929FB61BDF646300B8C59E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5929FB51BDF646300B8C59E /* Assets.xcassets */; };
+		C5929FB91BDF646300B8C59E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5929FB71BDF646300B8C59E /* LaunchScreen.storyboard */; };
+		C5929FC41BDF646300B8C59E /* HWTabbarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5929FC31BDF646300B8C59E /* HWTabbarControllerTests.m */; };
+		C5929FCF1BDF646300B8C59E /* HWTabbarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5929FCE1BDF646300B8C59E /* HWTabbarControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5929FC01BDF646300B8C59E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5929F9E1BDF646200B8C59E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5929FA51BDF646300B8C59E;
+			remoteInfo = HWTabbarController;
+		};
+		C5929FCB1BDF646300B8C59E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5929F9E1BDF646200B8C59E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5929FA51BDF646300B8C59E;
+			remoteInfo = HWTabbarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5929FA61BDF646300B8C59E /* HWTabbarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWTabbarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5929FAA1BDF646300B8C59E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5929FAC1BDF646300B8C59E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5929FAD1BDF646300B8C59E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5929FAF1BDF646300B8C59E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5929FB01BDF646300B8C59E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5929FB31BDF646300B8C59E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5929FB51BDF646300B8C59E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5929FB81BDF646300B8C59E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5929FBA1BDF646300B8C59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5929FBF1BDF646300B8C59E /* HWTabbarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWTabbarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5929FC31BDF646300B8C59E /* HWTabbarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWTabbarControllerTests.m; sourceTree = "<group>"; };
+		C5929FC51BDF646300B8C59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5929FCA1BDF646300B8C59E /* HWTabbarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWTabbarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5929FCE1BDF646300B8C59E /* HWTabbarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWTabbarControllerUITests.m; sourceTree = "<group>"; };
+		C5929FD01BDF646300B8C59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5929FA31BDF646300B8C59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5929FBC1BDF646300B8C59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5929FC71BDF646300B8C59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5929F9D1BDF646200B8C59E = {
+			isa = PBXGroup;
+			children = (
+				C5929FA81BDF646300B8C59E /* HWTabbarController */,
+				C5929FC21BDF646300B8C59E /* HWTabbarControllerTests */,
+				C5929FCD1BDF646300B8C59E /* HWTabbarControllerUITests */,
+				C5929FA71BDF646300B8C59E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5929FA71BDF646300B8C59E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5929FA61BDF646300B8C59E /* HWTabbarController.app */,
+				C5929FBF1BDF646300B8C59E /* HWTabbarControllerTests.xctest */,
+				C5929FCA1BDF646300B8C59E /* HWTabbarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5929FA81BDF646300B8C59E /* HWTabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				C5929FAC1BDF646300B8C59E /* AppDelegate.h */,
+				C5929FAD1BDF646300B8C59E /* AppDelegate.m */,
+				C5929FAF1BDF646300B8C59E /* ViewController.h */,
+				C5929FB01BDF646300B8C59E /* ViewController.m */,
+				C5929FB21BDF646300B8C59E /* Main.storyboard */,
+				C5929FB51BDF646300B8C59E /* Assets.xcassets */,
+				C5929FB71BDF646300B8C59E /* LaunchScreen.storyboard */,
+				C5929FBA1BDF646300B8C59E /* Info.plist */,
+				C5929FA91BDF646300B8C59E /* Supporting Files */,
+			);
+			path = HWTabbarController;
+			sourceTree = "<group>";
+		};
+		C5929FA91BDF646300B8C59E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5929FAA1BDF646300B8C59E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5929FC21BDF646300B8C59E /* HWTabbarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5929FC31BDF646300B8C59E /* HWTabbarControllerTests.m */,
+				C5929FC51BDF646300B8C59E /* Info.plist */,
+			);
+			path = HWTabbarControllerTests;
+			sourceTree = "<group>";
+		};
+		C5929FCD1BDF646300B8C59E /* HWTabbarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5929FCE1BDF646300B8C59E /* HWTabbarControllerUITests.m */,
+				C5929FD01BDF646300B8C59E /* Info.plist */,
+			);
+			path = HWTabbarControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5929FA51BDF646300B8C59E /* HWTabbarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5929FD31BDF646300B8C59E /* Build configuration list for PBXNativeTarget "HWTabbarController" */;
+			buildPhases = (
+				C5929FA21BDF646300B8C59E /* Sources */,
+				C5929FA31BDF646300B8C59E /* Frameworks */,
+				C5929FA41BDF646300B8C59E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HWTabbarController;
+			productName = HWTabbarController;
+			productReference = C5929FA61BDF646300B8C59E /* HWTabbarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5929FBE1BDF646300B8C59E /* HWTabbarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5929FD61BDF646300B8C59E /* Build configuration list for PBXNativeTarget "HWTabbarControllerTests" */;
+			buildPhases = (
+				C5929FBB1BDF646300B8C59E /* Sources */,
+				C5929FBC1BDF646300B8C59E /* Frameworks */,
+				C5929FBD1BDF646300B8C59E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5929FC11BDF646300B8C59E /* PBXTargetDependency */,
+			);
+			name = HWTabbarControllerTests;
+			productName = HWTabbarControllerTests;
+			productReference = C5929FBF1BDF646300B8C59E /* HWTabbarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5929FC91BDF646300B8C59E /* HWTabbarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5929FD91BDF646300B8C59E /* Build configuration list for PBXNativeTarget "HWTabbarControllerUITests" */;
+			buildPhases = (
+				C5929FC61BDF646300B8C59E /* Sources */,
+				C5929FC71BDF646300B8C59E /* Frameworks */,
+				C5929FC81BDF646300B8C59E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5929FCC1BDF646300B8C59E /* PBXTargetDependency */,
+			);
+			name = HWTabbarControllerUITests;
+			productName = HWTabbarControllerUITests;
+			productReference = C5929FCA1BDF646300B8C59E /* HWTabbarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5929F9E1BDF646200B8C59E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = hongw;
+				TargetAttributes = {
+					C5929FA51BDF646300B8C59E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					C5929FBE1BDF646300B8C59E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C5929FA51BDF646300B8C59E;
+					};
+					C5929FC91BDF646300B8C59E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C5929FA51BDF646300B8C59E;
+					};
+				};
+			};
+			buildConfigurationList = C5929FA11BDF646200B8C59E /* Build configuration list for PBXProject "HWTabbarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5929F9D1BDF646200B8C59E;
+			productRefGroup = C5929FA71BDF646300B8C59E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5929FA51BDF646300B8C59E /* HWTabbarController */,
+				C5929FBE1BDF646300B8C59E /* HWTabbarControllerTests */,
+				C5929FC91BDF646300B8C59E /* HWTabbarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5929FA41BDF646300B8C59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5929FB91BDF646300B8C59E /* LaunchScreen.storyboard in Resources */,
+				C5929FB61BDF646300B8C59E /* Assets.xcassets in Resources */,
+				C5929FB41BDF646300B8C59E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5929FBD1BDF646300B8C59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5929FC81BDF646300B8C59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5929FA21BDF646300B8C59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5929FB11BDF646300B8C59E /* ViewController.m in Sources */,
+				C5929FAE1BDF646300B8C59E /* AppDelegate.m in Sources */,
+				C5929FAB1BDF646300B8C59E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5929FBB1BDF646300B8C59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5929FC41BDF646300B8C59E /* HWTabbarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5929FC61BDF646300B8C59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5929FCF1BDF646300B8C59E /* HWTabbarControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5929FC11BDF646300B8C59E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5929FA51BDF646300B8C59E /* HWTabbarController */;
+			targetProxy = C5929FC01BDF646300B8C59E /* PBXContainerItemProxy */;
+		};
+		C5929FCC1BDF646300B8C59E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5929FA51BDF646300B8C59E /* HWTabbarController */;
+			targetProxy = C5929FCB1BDF646300B8C59E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5929FB21BDF646300B8C59E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5929FB31BDF646300B8C59E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5929FB71BDF646300B8C59E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5929FB81BDF646300B8C59E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5929FD11BDF646300B8C59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5929FD21BDF646300B8C59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5929FD41BDF646300B8C59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HWTabbarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KingNet.HWTabbarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5929FD51BDF646300B8C59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HWTabbarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KingNet.HWTabbarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5929FD71BDF646300B8C59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HWTabbarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KingNet.HWTabbarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HWTabbarController.app/HWTabbarController";
+			};
+			name = Debug;
+		};
+		C5929FD81BDF646300B8C59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HWTabbarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KingNet.HWTabbarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HWTabbarController.app/HWTabbarController";
+			};
+			name = Release;
+		};
+		C5929FDA1BDF646300B8C59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HWTabbarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KingNet.HWTabbarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HWTabbarController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C5929FDB1BDF646300B8C59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HWTabbarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KingNet.HWTabbarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HWTabbarController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5929FA11BDF646200B8C59E /* Build configuration list for PBXProject "HWTabbarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5929FD11BDF646300B8C59E /* Debug */,
+				C5929FD21BDF646300B8C59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5929FD31BDF646300B8C59E /* Build configuration list for PBXNativeTarget "HWTabbarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5929FD41BDF646300B8C59E /* Debug */,
+				C5929FD51BDF646300B8C59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5929FD61BDF646300B8C59E /* Build configuration list for PBXNativeTarget "HWTabbarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5929FD71BDF646300B8C59E /* Debug */,
+				C5929FD81BDF646300B8C59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5929FD91BDF646300B8C59E /* Build configuration list for PBXNativeTarget "HWTabbarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5929FDA1BDF646300B8C59E /* Debug */,
+				C5929FDB1BDF646300B8C59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5929F9E1BDF646200B8C59E /* Project object */;
+}
