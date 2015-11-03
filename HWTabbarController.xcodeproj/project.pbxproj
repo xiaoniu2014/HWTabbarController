@@ -511,7 +511,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: bin han (98RG5YK264)";
 				INFOPLIST_FILE = HWTabbarController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kingnet.tabBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingnet.tab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "7fb913e0-bec6-4c47-85e7-afb87ec208c8";
 			};
@@ -524,7 +524,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: bin han (98RG5YK264)";
 				INFOPLIST_FILE = HWTabbarController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kingnet.tabBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingnet.tab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "7fb913e0-bec6-4c47-85e7-afb87ec208c8";
 			};
