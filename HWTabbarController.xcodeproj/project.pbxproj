@@ -10,11 +10,20 @@
 		C5929FAB1BDF646300B8C59E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5929FAA1BDF646300B8C59E /* main.m */; };
 		C5929FAE1BDF646300B8C59E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5929FAD1BDF646300B8C59E /* AppDelegate.m */; };
 		C5929FB11BDF646300B8C59E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5929FB01BDF646300B8C59E /* ViewController.m */; };
-		C5929FB41BDF646300B8C59E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5929FB21BDF646300B8C59E /* Main.storyboard */; };
 		C5929FB61BDF646300B8C59E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5929FB51BDF646300B8C59E /* Assets.xcassets */; };
 		C5929FB91BDF646300B8C59E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5929FB71BDF646300B8C59E /* LaunchScreen.storyboard */; };
 		C5929FC41BDF646300B8C59E /* HWTabbarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5929FC31BDF646300B8C59E /* HWTabbarControllerTests.m */; };
 		C5929FCF1BDF646300B8C59E /* HWTabbarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5929FCE1BDF646300B8C59E /* HWTabbarControllerUITests.m */; };
+		C5929FE61BDF650C00B8C59E /* HWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5929FE51BDF650C00B8C59E /* HWMainViewController.m */; };
+		C5929FE91BDF652300B8C59E /* HWSameCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5929FE81BDF652300B8C59E /* HWSameCityViewController.m */; };
+		C5929FEC1BDF652A00B8C59E /* HWMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5929FEB1BDF652A00B8C59E /* HWMessageViewController.m */; };
+		C5929FEF1BDF653100B8C59E /* HWMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5929FEE1BDF653100B8C59E /* HWMineViewController.m */; };
+		C5D4F5AB1BE85B7300179F7C /* HWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D4F5AA1BE85B7300179F7C /* HWTabBarController.m */; };
+		C5D4F5B01BE85BBC00179F7C /* HWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D4F5AF1BE85BBC00179F7C /* HWTabBar.m */; };
+		C5D4F5B31BE8787500179F7C /* HWPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D4F5B21BE8787500179F7C /* HWPlusButton.m */; };
+		C5D4F5B61BE87E7F00179F7C /* HWPlusButtonSubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D4F5B51BE87E7F00179F7C /* HWPlusButtonSubClass.m */; };
+		C5D4F67D1BE8A40300179F7C /* UITabBar+HWBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D4F67C1BE8A40300179F7C /* UITabBar+HWBadge.m */; };
+		C5D4F6801BE8BF4100179F7C /* UIImage+HWColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D4F67F1BE8BF4100179F7C /* UIImage+HWColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +50,6 @@
 		C5929FAD1BDF646300B8C59E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C5929FAF1BDF646300B8C59E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C5929FB01BDF646300B8C59E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C5929FB31BDF646300B8C59E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5929FB51BDF646300B8C59E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5929FB81BDF646300B8C59E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5929FBA1BDF646300B8C59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +59,26 @@
 		C5929FCA1BDF646300B8C59E /* HWTabbarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWTabbarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5929FCE1BDF646300B8C59E /* HWTabbarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWTabbarControllerUITests.m; sourceTree = "<group>"; };
 		C5929FD01BDF646300B8C59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5929FE41BDF650C00B8C59E /* HWMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWMainViewController.h; sourceTree = "<group>"; };
+		C5929FE51BDF650C00B8C59E /* HWMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWMainViewController.m; sourceTree = "<group>"; };
+		C5929FE71BDF652300B8C59E /* HWSameCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWSameCityViewController.h; sourceTree = "<group>"; };
+		C5929FE81BDF652300B8C59E /* HWSameCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWSameCityViewController.m; sourceTree = "<group>"; };
+		C5929FEA1BDF652A00B8C59E /* HWMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWMessageViewController.h; sourceTree = "<group>"; };
+		C5929FEB1BDF652A00B8C59E /* HWMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWMessageViewController.m; sourceTree = "<group>"; };
+		C5929FED1BDF653100B8C59E /* HWMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWMineViewController.h; sourceTree = "<group>"; };
+		C5929FEE1BDF653100B8C59E /* HWMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWMineViewController.m; sourceTree = "<group>"; };
+		C5D4F5A91BE85B7300179F7C /* HWTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTabBarController.h; sourceTree = "<group>"; };
+		C5D4F5AA1BE85B7300179F7C /* HWTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTabBarController.m; sourceTree = "<group>"; };
+		C5D4F5AE1BE85BBC00179F7C /* HWTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTabBar.h; sourceTree = "<group>"; };
+		C5D4F5AF1BE85BBC00179F7C /* HWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTabBar.m; sourceTree = "<group>"; };
+		C5D4F5B11BE8787500179F7C /* HWPlusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPlusButton.h; sourceTree = "<group>"; };
+		C5D4F5B21BE8787500179F7C /* HWPlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPlusButton.m; sourceTree = "<group>"; };
+		C5D4F5B41BE87E7F00179F7C /* HWPlusButtonSubClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPlusButtonSubClass.h; sourceTree = "<group>"; };
+		C5D4F5B51BE87E7F00179F7C /* HWPlusButtonSubClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPlusButtonSubClass.m; sourceTree = "<group>"; };
+		C5D4F67B1BE8A40300179F7C /* UITabBar+HWBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+HWBadge.h"; sourceTree = "<group>"; };
+		C5D4F67C1BE8A40300179F7C /* UITabBar+HWBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+HWBadge.m"; sourceTree = "<group>"; };
+		C5D4F67E1BE8BF4100179F7C /* UIImage+HWColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HWColor.h"; sourceTree = "<group>"; };
+		C5D4F67F1BE8BF4100179F7C /* UIImage+HWColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HWColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +133,12 @@
 				C5929FAD1BDF646300B8C59E /* AppDelegate.m */,
 				C5929FAF1BDF646300B8C59E /* ViewController.h */,
 				C5929FB01BDF646300B8C59E /* ViewController.m */,
-				C5929FB21BDF646300B8C59E /* Main.storyboard */,
+				C5D4F5A81BE75D7300179F7C /* HWTabBarController */,
+				C5929FE21BDF64E300B8C59E /* Home */,
+				C5929FE11BDF64DD00B8C59E /* Main */,
+				C5929FE01BDF64D300B8C59E /* SameCity */,
+				C5929FDF1BDF64CE00B8C59E /* Message */,
+				C5929FDE1BDF64CA00B8C59E /* Mine */,
 				C5929FB51BDF646300B8C59E /* Assets.xcassets */,
 				C5929FB71BDF646300B8C59E /* LaunchScreen.storyboard */,
 				C5929FBA1BDF646300B8C59E /* Info.plist */,
@@ -138,6 +171,68 @@
 				C5929FD01BDF646300B8C59E /* Info.plist */,
 			);
 			path = HWTabbarControllerUITests;
+			sourceTree = "<group>";
+		};
+		C5929FDE1BDF64CA00B8C59E /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				C5929FED1BDF653100B8C59E /* HWMineViewController.h */,
+				C5929FEE1BDF653100B8C59E /* HWMineViewController.m */,
+			);
+			name = Mine;
+			sourceTree = "<group>";
+		};
+		C5929FDF1BDF64CE00B8C59E /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				C5929FEA1BDF652A00B8C59E /* HWMessageViewController.h */,
+				C5929FEB1BDF652A00B8C59E /* HWMessageViewController.m */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		C5929FE01BDF64D300B8C59E /* SameCity */ = {
+			isa = PBXGroup;
+			children = (
+				C5929FE71BDF652300B8C59E /* HWSameCityViewController.h */,
+				C5929FE81BDF652300B8C59E /* HWSameCityViewController.m */,
+			);
+			name = SameCity;
+			sourceTree = "<group>";
+		};
+		C5929FE11BDF64DD00B8C59E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C5929FE41BDF650C00B8C59E /* HWMainViewController.h */,
+				C5929FE51BDF650C00B8C59E /* HWMainViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		C5929FE21BDF64E300B8C59E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C5D4F5B41BE87E7F00179F7C /* HWPlusButtonSubClass.h */,
+				C5D4F5B51BE87E7F00179F7C /* HWPlusButtonSubClass.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		C5D4F5A81BE75D7300179F7C /* HWTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				C5D4F5A91BE85B7300179F7C /* HWTabBarController.h */,
+				C5D4F5AA1BE85B7300179F7C /* HWTabBarController.m */,
+				C5D4F5AE1BE85BBC00179F7C /* HWTabBar.h */,
+				C5D4F5AF1BE85BBC00179F7C /* HWTabBar.m */,
+				C5D4F5B11BE8787500179F7C /* HWPlusButton.h */,
+				C5D4F5B21BE8787500179F7C /* HWPlusButton.m */,
+				C5D4F67B1BE8A40300179F7C /* UITabBar+HWBadge.h */,
+				C5D4F67C1BE8A40300179F7C /* UITabBar+HWBadge.m */,
+				C5D4F67E1BE8BF4100179F7C /* UIImage+HWColor.h */,
+				C5D4F67F1BE8BF4100179F7C /* UIImage+HWColor.m */,
+			);
+			name = HWTabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +297,7 @@
 		C5929F9E1BDF646200B8C59E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HW;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = hongw;
 				TargetAttributes = {
@@ -245,7 +341,6 @@
 			files = (
 				C5929FB91BDF646300B8C59E /* LaunchScreen.storyboard in Resources */,
 				C5929FB61BDF646300B8C59E /* Assets.xcassets in Resources */,
-				C5929FB41BDF646300B8C59E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +365,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5929FE61BDF650C00B8C59E /* HWMainViewController.m in Sources */,
 				C5929FB11BDF646300B8C59E /* ViewController.m in Sources */,
+				C5D4F5B31BE8787500179F7C /* HWPlusButton.m in Sources */,
+				C5929FE91BDF652300B8C59E /* HWSameCityViewController.m in Sources */,
 				C5929FAE1BDF646300B8C59E /* AppDelegate.m in Sources */,
 				C5929FAB1BDF646300B8C59E /* main.m in Sources */,
+				C5D4F5B01BE85BBC00179F7C /* HWTabBar.m in Sources */,
+				C5D4F5B61BE87E7F00179F7C /* HWPlusButtonSubClass.m in Sources */,
+				C5D4F6801BE8BF4100179F7C /* UIImage+HWColor.m in Sources */,
+				C5D4F67D1BE8A40300179F7C /* UITabBar+HWBadge.m in Sources */,
+				C5929FEC1BDF652A00B8C59E /* HWMessageViewController.m in Sources */,
+				C5D4F5AB1BE85B7300179F7C /* HWTabBarController.m in Sources */,
+				C5929FEF1BDF653100B8C59E /* HWMineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +413,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C5929FB21BDF646300B8C59E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C5929FB31BDF646300B8C59E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C5929FB71BDF646300B8C59E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,10 +508,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: bin han (98RG5YK264)";
 				INFOPLIST_FILE = HWTabbarController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = KingNet.HWTabbarController;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingnet.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7fb913e0-bec6-4c47-85e7-afb87ec208c8";
 			};
 			name = Debug;
 		};
@@ -422,10 +521,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: bin han (98RG5YK264)";
 				INFOPLIST_FILE = HWTabbarController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = KingNet.HWTabbarController;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingnet.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7fb913e0-bec6-4c47-85e7-afb87ec208c8";
 			};
 			name = Release;
 		};
@@ -496,6 +597,7 @@
 				C5929FD51BDF646300B8C59E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5929FD61BDF646300B8C59E /* Build configuration list for PBXNativeTarget "HWTabbarControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +606,7 @@
 				C5929FD81BDF646300B8C59E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5929FD91BDF646300B8C59E /* Build configuration list for PBXNativeTarget "HWTabbarControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +615,7 @@
 				C5929FDB1BDF646300B8C59E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

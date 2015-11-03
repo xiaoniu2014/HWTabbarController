@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  HWMessageViewController.h
 //  HWTabbarController
 //
 //  Created by hw on 15/10/27.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface HWMessageViewController : UIViewController
 
 @end
-
